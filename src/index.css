@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    button{
+        @apply rounded-md py-1 px-4 border;
+    }
+}
